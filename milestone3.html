@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CUS1172 Introduction</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style1.css">
+
+</head>
+<body>
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Welcome to my page!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education-summary">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project-experience">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#favorite">Favorite</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#favorite-website">Favorite website</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-me">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 id="about-me">About Me</h3>
+                <p>Name: Xiaoyao Wu</p>
+                <p>Major: Computer Science</p>
+                <p>Current year: Senior</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://pbs.twimg.com/media/FwgvEhoWwBIw92v.jpg" alt="Image" width="200" height="200">
+            </div>
+            <div class="col-md-6">
+                <h3 id="education-summary">Education</h3>
+                <p>St. John's University (NY)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-4">
+        <h3 id="project-experience">Project Experience</h3>
+        <ul>
+            <li>Inventory tracking system program</li>
+            <li>Password checker program</li>
+        </ul>
+    </div>
+    
+    <!-- Favorite Song, Film, and TV Show (Using Bootstrap Cards) -->
+    <div class="container mt-4">
+        <h3 id="favorite">Favorite Song, Film, and TV Show</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song</h5>
+                        <p class="card-text">1. The Greatest - Billie Eilish</p>
+                        <p class="card-text">2. Deep Green - Christian Kuria</p>
+                        <p class="card-text">3. Born again - Lisa/Doja Cat/RAYE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="film-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Film</h5>
+                        <p class="card-text">1. Chungking Express</p>
+                        <p class="card-text">2. Love letter</p>
+                        <p class="card-text">3. We made a beautiful bouquet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tv-card">
+                    <div class="card-body">
+                        <h5 class="card-title">TV Show</h5>
+                        <p class="card-text">Friends</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h3 id="favorite-website">Websites</h3>
+        <p><a href="https://www.ted.com/talks">1. TEDTalk</a></p>
+        <p>TedTalks educate and inspire me a lot.</p>
+        <div class="ratio ratio-16x9" style="max-width: 800px; margin: auto;">
+            <iframe src="https://www.youtube.com/embed/mAxFB3vbt7c" title="One of the world’s oldest condiments - Dan Kwartler" allowfullscreen></iframe>
+        </div>
+        <p><a href="https://neal.fun/">2. Neal.fun</a></p>
+        <p>Neal.fun is a website created by Neal Agarwal, which showcases smaller, fun games.</p>
+    </div>
+    
+    <!-- Contact Form -->
+    <div class="container mt-4">
+        <h3 id="contact-me">Contact Me</h3>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
